@@ -4,7 +4,7 @@ import { Link } from "expo-router";
 export default function Index() {
   return (
     <View className="flex-1 items-center justify-center">
-      <Text>Welcome To Real Esate App</Text>
+      <Text className="text-2xl font-rubikBold">Welcome To Real Esate App</Text>
       <Link href="/signin">Signin</Link>
       <Link href="/explore">Explore</Link>
       <Link href="/profile">Profile</Link>
