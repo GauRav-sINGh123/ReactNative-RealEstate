@@ -1,30 +1,32 @@
-import { Image, ScrollView, Text, TouchableOpacity, View } from 'react-native'
-import React from 'react'
-import { SafeAreaView } from 'react-native-safe-area-context'
-import images from "@/constants/images"
-import icons from "@/constants/icons"
+import { Image, ScrollView, Text, TouchableOpacity, View } from "react-native";
+import React from "react";
+import { SafeAreaView } from "react-native-safe-area-context";
+import images from "@/constants/images";
+import icons from "@/constants/icons";
 const signin = () => {
   return (
-    <SafeAreaView className='bg-white h-full'>
-      <ScrollView  contentContainerStyle={{
+    <SafeAreaView className="bg-white h-full">
+      <ScrollView
+        contentContainerStyle={{
           height: "100%",
-        }}>
-         <Image source={images.onboarding} className="w-full h-4/6 mt-4"
-          resizeMode="contain"/>
-           <View className="px-10">
+        }}
+      >
+        <Image
+          source={images.onboarding}
+          className="w-full h-4/6 mt-4"
+          resizeMode="contain"
+        />
+        <View className="px-10">
           <Text className="text-base text-center uppercase font-rubik text-black-200">
-            Welcome To Real Scout
+            Welcome To Real Dwellio
           </Text>
 
           <Text className="text-3xl font-rubikSemiBold text-black-300 text-center mt-2">
-            Let's Get You Closer To {"\n"}
-            <Text className="text-primary-300">Your Ideal Home</Text>
+            Find Your Way to Your  {"\n"}
+            <Text className="text-primary-300">Dream Home</Text>
           </Text>
 
-     
-          <TouchableOpacity
-            className="bg-white shadow-lg shadow-zinc-300 rounded-full w-full py-4 mt-14"
-          >
+          <TouchableOpacity className="bg-white shadow-lg shadow-zinc-300 rounded-full w-full py-4 mt-14">
             <View className="flex flex-row items-center justify-center">
               <Image
                 source={icons.google}
@@ -39,7 +41,7 @@ const signin = () => {
         </View>
       </ScrollView>
     </SafeAreaView>
-  )
-}
+  );
+};
 
-export default signin
+export default signin;
