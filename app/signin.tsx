@@ -21,12 +21,9 @@ const signin = () => {
             <Text className="text-primary-300">Your Ideal Home</Text>
           </Text>
 
-          <Text className="text-lg font-rubik text-black-200 text-center mt-12">
-            Login to Real Scout with Google
-          </Text>
-
+     
           <TouchableOpacity
-            className="bg-white shadow-lg shadow-zinc-300 rounded-full w-full py-4 mt-5"
+            className="bg-white shadow-lg shadow-zinc-300 rounded-full w-full py-4 mt-14"
           >
             <View className="flex flex-row items-center justify-center">
               <Image
