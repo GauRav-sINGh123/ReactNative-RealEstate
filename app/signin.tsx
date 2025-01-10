@@ -21,20 +21,16 @@ const signin = () => {
     }
   }
   return (
-    <SafeAreaView className="bg-white h-full">
+    <SafeAreaView className="bg-white h-full ">
       <ScrollView
         contentContainerStyle={{
           height: "100%",
         }}
       >
-        <Image
-          source={images.onboarding}
-          className="w-full h-4/6 mt-4"
-          resizeMode="contain"
-        />
-        <View className="px-10">
+        
+        <View className="px-10 mt-72">
           <Text className="text-base text-center uppercase font-rubik text-black-200">
-            Welcome To Real Dwellio
+            Welcome To Dwellio
           </Text>
 
           <Text className="text-3xl font-rubikSemiBold text-black-300 text-center mt-2">
@@ -42,7 +38,7 @@ const signin = () => {
             <Text className="text-primary-300">Dream Home</Text>
           </Text>
 
-          <TouchableOpacity className="bg-white shadow-lg shadow-zinc-300 rounded-full w-full py-4 mt-14"
+          <TouchableOpacity className="bg-white shadow-lg shadow-zinc-300 rounded-full w-full py-4 mt-8"
              onPress={handleLogin}>
             <View className="flex flex-row items-center justify-center">
               <Image
